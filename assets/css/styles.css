@@ -29,9 +29,3 @@ body{
 .inside {
 	color: orange;
 }
-
-form.login div input[type="text"], form.login div input[type="password"] {
-    border: 1px solid #DCDCDC;
-    float: right;
-    padding: 4px;
-}
