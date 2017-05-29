@@ -56,7 +56,7 @@
                     <label for="email" data-error="wrong" data-success="right" class="center-align">Email</label>
                   </div>
                 </div>
-                <div class="row margin">
+                <div class="row">
                   <div class="input-field col s12">
                     <i class="mdi-action-lock-outline prefix"></i>
                     <input id="password" type="password">
@@ -76,10 +76,10 @@
                 </div>
                 <div class="row">
                   <div class="input-field col s6 m6 l6">
-                    <p class="margin medium-small"><a href="register.php">Register Now!</a></p>
+                    <p class="margin medium-small"><a href="register.php">Registrarse</a></p>
                   </div>
                   <div class="input-field col s6 m6 l6">
-                      <p class="margin right-align medium-small"><a href="forgot-password.html">Forgot password?</a></p>
+                      <p class="margin right-align medium-small"><a href="forgot-password.html">Olvidaste tu contraseña?</a></p>
                   </div>          
                 </div>
               </form>
