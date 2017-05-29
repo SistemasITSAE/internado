@@ -28,11 +28,10 @@ body{
 }
 .inside {
 	color: orange;
-<<<<<<< HEAD
 }
-input-field {
-	height: 25px;
-	width: 25px;
-=======
->>>>>>> b5f091ca400f90d66b7898eb9ed3644926b294c4
+
+form.login div input[type="text"], form.login div input[type="password"] {
+    border: 1px solid #DCDCDC;
+    float: right;
+    padding: 4px;
 }
