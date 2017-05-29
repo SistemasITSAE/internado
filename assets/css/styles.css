@@ -1,0 +1,35 @@
+form {
+	width: 380px;
+	margin: 4em auto;
+	padding: 3em 2em 2em 2em;
+	position: relative;
+	/*background: #fafafa;*/
+	background: rgba(255, 255, 255, 0.5);;
+	/*background-color:rgba(0, 0, 255, 0.3);*/
+	border: 1px solid #ebebeb;
+	box-shadow: rgba(0,0,0,0.14902) 0px 1px 1px 0px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+}
+body{
+	display: block;
+	background-image: url(http://i.imgur.com/xeek3iC.jpg);
+}
+.card-panel{
+	background-color: transparent;
+}
+.input-field label {
+	color: black;
+}
+
+.margin {
+	color: white;
+}*/
+.back {
+	background-color: rgba(0, 0, 255, 0.3);
+}
+.inside {
+	color: orange;
+}
+input-field {
+	height: 25px;
+	width: 25px;
+}
