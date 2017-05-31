@@ -3,11 +3,12 @@
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
-     <link type="text/css" rel="stylesheet" href="<?php echo base_url('../assets/css/bootstrap.min.css') ?>"  media="screen,projection"/>
-      <link type="text/css" rel="stylesheet" href="<?php echo base_url('../assets/css/styles.css') ?>"  media="screen,projection"/>
+     <link type="text/css" rel="stylesheet" href="<?php echo base_url('/assets/css/bootstrap.css') ?>"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="<?php echo base_url('/assets/css/styles.css') ?>"  media="screen,projection"/>
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Administrator Area</title>
     </head>
 
     <body>
@@ -49,7 +50,7 @@
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="<?php $username ?>"></a></li>
+        <li><a href="#"><?php ?></a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -57,7 +58,7 @@
             <li><a href="#">Another action</a></li>
             <li><a href="#">Something else here</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="<?php echo site_url('home_view'); ?>">Salir</a></li>
+            <li><a href="<?php echo site_url('home/logout'); ?>">Salir</a></li>
           </ul>
         </li>
       </ul>
@@ -78,7 +79,7 @@
             </div>
             <div class="card-action">
               <P>
-              <a classs="btn btn-primary btn-lg" href="<?php echo site_url('home_view'); ?>" role="button">Salir</a>
+              <a classs="btn btn-primary btn-lg" href="<?php echo site_url('home/logout'); ?>" role="button">Salir</a>
             </div>
           </div>
         </div>
@@ -86,8 +87,8 @@
             
         </div>
       <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="<?php echo base_url('https://code.jquery.com/jquery-2.1.1.min.js') ?> "></script>
-      <script type="text/javascript" src="<?php echo base_url('js/materialize.min.js') ?> "></script>
+      <script type="text/javascript" src="<?php echo base_url('/assets/js/jquery.min.js') ?> "></script>
+      <script type="text/javascript" src="<?php echo base_url('/assets/js/bootstrap.min.js') ?> "></script>
     </body>
   </html>
         

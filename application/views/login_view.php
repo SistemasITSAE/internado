@@ -3,7 +3,7 @@
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
-     <link type="text/css" rel="stylesheet" href="<?php echo base_url('/assets/css/bootstrap.css') ?>"  media="screen,projection"/>
+     <link type="text/css" rel="stylesheet" href="<?php echo base_url('/assets/css/bootstrap.min.css') ?>"  media="screen,projection"/>
       <link type="text/css" rel="stylesheet" href="<?php echo base_url('/assets/css/styles.css') ?>"  media="screen,projection"/>
 
       <!--Let browser know website is optimized for mobile-->
@@ -45,6 +45,7 @@
                     <div class="form-group">
                         <?php echo form_submit('login', 'Login', 'class="btn btn-primary"'); ?>
                         <a href="<?php echo site_url('login/register'); ?>" class="btn btn-link">Registrarse</a>
+                        <?php echo form_close() ?>
                     </div>
                   </div>
                 </div>
@@ -53,8 +54,8 @@
           </div>
         </div>
       <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="<?php echo base_url('https://code.jquery.com/jquery-2.1.1.min.js') ?> "></script>
-      <script type="text/javascript" src="<?php echo base_url('js/materialize.min.js') ?> "></script>
+      <script type="text/javascript" src="<?php echo base_url('/assets/js/jquery.min.js') ?>"></script>
+      <script type="text/javascript" src="<?php echo base_url('/assets/js/bootstrap.min.js') ?>"></script>
     </body>
   </html>
         

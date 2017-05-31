@@ -1,4 +1,4 @@
-  <html>
+<html>
     <head>
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -36,6 +36,7 @@
                       echo form_label('Full Name','fullname');
                       echo form_input('fullname','','class="form-control" id="fullname placeholder="Full Name"') 
                       ?>
+                      </div>
                        <div class="form-group">
                       <?php 
                       echo form_label('Username','username');
@@ -49,8 +50,8 @@
                          ?>
                     </div>
                     <div class="form-group">
-                        <?php echo form_submit('login', 'Register', 'class="btn btn-primary"'); ?>
-                        <a href="<?php echo site_url('login'); ?>" class="btn btn-link">Registrarse Ahora</a>
+                        <?php echo form_submit('daftar', 'Register', 'class="btn btn-primary"'); ?>
+                        <a href="<?php echo site_url('login'); ?>" class="btn btn-link">Ingresar</a>
                     </div>
                   </div>
                 </div>
@@ -60,8 +61,8 @@
         </div>
       </div>
       <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="<?php echo base_url('https://code.jquery.com/jquery-2.1.1.min.js') ?> "></script>
-      <script type="text/javascript" src="<?php echo base_url('js/materialize.min.js') ?> "></script>
+       <script type="text/javascript" src="<?php echo base_url('/assets/js/jquery.min.js') ?> "></script>
+      <script type="text/javascript" src="<?php echo base_url('/assets/js/bootstrap.min.js') ?> "></script>
     </body>
-  </html>
+</html>
         
