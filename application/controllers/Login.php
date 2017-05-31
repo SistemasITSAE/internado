@@ -4,9 +4,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Login extends CI_Controller{
 
 	public function index()
-	{		
+	{	
+		$this->load->helper('security');
 		$this->form_validation->set_rules('username','Username','trim|required');
-		$this->form_validation->set_rules('password','Password','trim|required|callback?basisdata_cek');
+		$this->form_validation->set_rules('password','Password','trim|required|callback_basisdata_cek');
 		if ($this->form_validation->run() ==false){
 			$this->load->view('login_view');
 		} else{
@@ -15,12 +16,12 @@ class Login extends CI_Controller{
 	}
 
 	function basisdata_cek($password){
-		$username = $this->input->post('username');
+		$username = $this->input->post('password');
 		$result = $this->login->login($username,$password);
 		if ($result){
 			$sess_array=array();
 		foreach ($result as $row){
-			$sess_array = $arrayName = array('id' => $row->id, 'username' => $row->username);
+			$sess_array = $arrayName = array('id' => $row->id, 'username' => $row->username, 'fullname' => $row->fullname);
 			$this->session->set_userdata('logged in', $sess_array);
 		}
 		return true;
