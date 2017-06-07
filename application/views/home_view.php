@@ -28,18 +28,18 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
+        <li class="active"><a href="#">Status <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Buscar</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ver <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><a href="#">Students</a></li>
+            <li><a href="#">Regsitern</a></li>
+            <li><a href="#">Descripcion</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+            <li><a href="#">Mas</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><a href="#"></a></li>
           </ul>
         </li>
       </ul>
@@ -74,17 +74,17 @@
               <span class="card-title">Card Title</span>
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p></p>
             </div>
             <div class="card-action">
               <P>
-              <a classs="btn btn-primary btn-lg" href="<?php echo site_url('home/logout'); ?>" role="button">Salir</a>
             </div>
           </div>
         </div>
       </div>
-            
+        </div>
+        <div class="footer">
+            <a classs="btn btn-primary btn-lg" href="<?php echo site_url('home/logout'); ?>" role="button">Salir</a>
         </div>
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="<?php echo base_url('/assets/js/jquery.min.js') ?> "></script>
