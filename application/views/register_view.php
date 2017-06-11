@@ -4,7 +4,7 @@
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
      <link type="text/css" rel="stylesheet" href="<?php echo base_url('/assets/css/bootstrap.css') ?>"  media="screen,projection"/>
-      <link type="text/css" rel="stylesheet" href="<?php echo base_url('/assets/css/styles.css') ?>"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="<?php echo base_url('/assets/css/style.css') ?>"  media="screen,projection"/>
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -16,7 +16,10 @@
             <div class="row">
               <div class="col-md-4"></div>
               <div class="col-md-4">
-                <div class="panel panel-default">
+                <div class="panel panel-info">
+                  <div class="panel-heading">
+                    <div class="panel-title">Bienvenido al registro de Preceptores</div>
+                  </div>
                   <div class="panel-body">
 
                     <?php 
@@ -32,26 +35,40 @@
                        ?>
                     
                     <div class="form-group">
-                      <?php 
-                      echo form_label('Full Name','fullname');
-                      echo form_input('fullname','','class="form-control" id="fullname placeholder="Full Name"') 
+                      <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                         <?php 
+                      echo form_label('','fullname');
+                      echo form_input('fullname','','class="form-control" id="fullname" placeholder="Nombre Completo"') 
                       ?>
                       </div>
+                      </div>
                        <div class="form-group">
-                      <?php 
-                      echo form_label('Username','username');
-                      echo form_input('username','','class="form-control" id="username placeholder="Username"') 
+                        <div class="input-group"> 
+                          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                          <?php 
+                      echo form_label('','username');
+                      echo form_input('username','','class="form-control" id="username" placeholder="Username"') 
                       ?>
+                        </div>
                     </div>
                     <div class="form-group">
+                      <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
                         <?php 
-                          echo form_label('Password','password');
-                          echo form_password('password','','class="form-control" id="password placeholder="Password"');
+                          echo form_label('','password');
+                          echo form_password('password','','class="form-control" id="password" placeholder="Contraseña"');
                          ?>
+                      </div>
                     </div>
                     <div class="form-group">
-                        <?php echo form_submit('daftar', 'Register', 'class="btn btn-primary"'); ?>
-                        <a href="<?php echo site_url('login'); ?>" class="btn btn-link">Ingresar</a>
+                        <?php echo form_submit('daftar', 'Registrarse', 'class="btn btn-success"'); ?> o si
+                    </div>
+                    <div class="form-group">
+                      <div>
+                        Ya tienes una cuenta, ingresa ahora!
+                        <a href="<?php echo site_url('login'); ?>" class="btn btn-primary">Ingresar</a>
+                      </div>
                     </div>
                   </div>
                 </div>

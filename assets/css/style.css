@@ -9,9 +9,12 @@
 	border: 1px solid #ebebeb;
 	box-shadow: rgba(0,0,0,0.14902) 0px 1px 1px 0px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
 }
+*/
 body{
-	display: block;
+	display:block;
 	background-image: url(http://i.imgur.com/xeek3iC.jpg);
+	position: relative;
+	width: auto;
 }
 /*
 .card-panel{
@@ -32,4 +35,11 @@ body{
 }*/
 .navbar-default{
 	background-color: white;
+}
+.input-group{
+	margin-bottom: 25px;
+}
+.panel-info> .panel-heading {
+	background-color: #007BFF;
+	color: white;
 }
