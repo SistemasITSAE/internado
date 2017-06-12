@@ -1,4 +1,4 @@
-  <html>
+  <html lang="es">
     <head>
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -11,14 +11,15 @@
       <meta charset="utf-8">
     </head>
     <body>
-        <div class="container" style="margin-top: 100px;">
-            <div class="row">
-              <div class="col-md-4"></div>
-              <div class="col-md-4">
-                <div class="panel panel-info">
-                    <div class="panel-heading">
+      <div class="page-wrap gradient-primary">
+        <div class="container" style="margin-top:;">
+                <div class="content">
+                  <h1 class="logo"><a href="http://www.itsae.edu.ec"></a></h1>
+                <div class="panel">
+                  <h3>Ingresar a tu cuenta</h3>
+                    <!--<div class="panel-heading">
                       <div class="panel-title">Bienvenido al Sistema Internado ITSAE</div>
-                    </div>
+                    </div>-->
                     <div class="panel-body">
                     <?php 
                       if (validation_errors()) {
@@ -32,7 +33,7 @@
                         echo form_open('login','class="myclass"');
                        ?>
                     
-                    <div style="margin-bottom:" class="form-group">
+                    <div class="form-group">
                       <div class="input-group">
                         <span class="input-group-addon">
                            <i class="glyphicon glyphicon-user"></i></span>
@@ -53,7 +54,7 @@
                       </div>
                     </div>
                     <div class="form-group">
-                        <?php echo form_submit('login', 'Ingresar', 'class="btn btn-success"'); ?>
+                        <?php echo form_submit('login', 'Ingresar', 'class="btn btn-success btn-lg btn-block"'); ?>
                     </div>
                     <div class="form-group">
                       <div class="col-md-12 control"> 
@@ -66,10 +67,20 @@
                     </div>
                   </div>
                 </div>
+                <a href="/account/password/reset" style="margin-left: 25px" class="remember">Olvidaste tu contraseña?</a>
+                </div>
               </div>
             <div class="col-md-4"></div>
           </div>
         </div>
+      <footer class="logo-sfdc">
+        <a href="#" title="#">Agile Solutions <span></span> company</a>
+          <ul class="legal">
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Cookies</a></li>
+          <li>© 2017 agilesolutions.com</li></ul>
+      </footer>
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="<?php echo base_url('/assets/js/jquery.min.js') ?>"></script>
       <script type="text/javascript" src="<?php echo base_url('/assets/js/bootstrap.min.js') ?>"></script>

@@ -12,15 +12,16 @@
       <title>Registrar</title>
     </head>
     <body>
-        <div class="container" style="margin-top: 100px;">
-            <div class="row">
-              <div class="col-md-4"></div>
-              <div class="col-md-4">
-                <div class="panel panel-info">
-                  <div class="panel-heading">
-                    <div class="panel-title">Bienvenido al registro de Preceptores</div>
-                  </div>
-                  <div class="panel-body">
+      <div class="page-wrap gradient-primary">
+        <div class="container" style="margin-top:;">
+                <div class="content">
+                  <h1 class="logo"><a href="http://www.itsae.edu.ec"></a></h1>
+                <div class="panel">
+                  <h3>Registro de Preceptores</h3>
+                    <!--<div class="panel-heading">
+                      <div class="panel-title">Bienvenido al Sistema Internado ITSAE</div>
+                    </div>-->
+                    
 
                     <?php 
                       if (validation_errors()) {
@@ -62,21 +63,28 @@
                       </div>
                     </div>
                     <div class="form-group">
-                        <?php echo form_submit('daftar', 'Registrarse', 'class="btn btn-success"'); ?> o si
+                        <?php echo form_submit('daftar', 'Registrarse', 'class="btn btn-success btn-lg btn-block"'); ?>
                     </div>
                     <div class="form-group">
                       <div>
-                        Ya tienes una cuenta, ingresa ahora!
-                        <a href="<?php echo site_url('login'); ?>" class="btn btn-primary">Ingresar</a>
+                        Ya tienes una cuenta!?
+                        <a href="<?php echo site_url('login'); ?>" class="btn btn-primary">Ingresa aqui</a>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            <div class="col-md-4"></div>
           </div>
         </div>
       </div>
+      <footer class="logo-sfdc">
+        <a href="#" title="#">Agile Solutions <span></span> company</a>
+          <ul class="legal">
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Cookies</a></li>
+          <li>© 2017 agilesolutions.com</li></ul>
+      </footer>
       <!--Import jQuery before materialize.js-->
        <script type="text/javascript" src="<?php echo base_url('/assets/js/jquery.min.js') ?> "></script>
       <script type="text/javascript" src="<?php echo base_url('/assets/js/bootstrap.min.js') ?> "></script>
