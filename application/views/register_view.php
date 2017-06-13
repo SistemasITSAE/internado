@@ -4,8 +4,8 @@
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
      <link type="text/css" rel="stylesheet" href="<?php echo base_url('/assets/css/bootstrap.css') ?>"  media="screen,projection"/>
-      <link type="text/css" rel="stylesheet" href="<?php echo base_url('/assets/css/style.css') ?>"  media="screen,projection"/>
-
+      <link type="text/css" rel="stylesheet" href="<?php echo base_url('/assets/css/register.css') ?>"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="<?php echo base_url('/assets/css/font-awesome.min.css') ?>"  media="screen,projection"/>
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <meta charset="utf-8">
@@ -34,7 +34,15 @@
                         }
                         echo form_open('login/register','class="myclass"');
                        ?>
-                    
+                    <div class="form-group">
+                      <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                         <?php 
+                      echo form_label('','type');
+                      echo form_input('type','','class="form-control" id="type" placeholder="Tipo"') 
+                      ?>
+                      </div>
+                      </div>
                     <div class="form-group">
                       <div class="input-group">
                         <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
@@ -48,8 +56,8 @@
                         <div class="input-group"> 
                           <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
                           <?php 
-                      echo form_label('','username');
-                      echo form_input('username','','class="form-control" id="username" placeholder="Username"') 
+                      echo form_label('','email');
+                      echo form_input('email','','class="form-control" id="email" placeholder="Email"') 
                       ?>
                         </div>
                     </div>
@@ -62,6 +70,25 @@
                          ?>
                       </div>
                     </div>
+                    <div class="form-group">
+                      <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-calendar-o" aria-hidden="true"></i></span>
+                        <?php 
+                          echo form_label('','date');
+                          echo form_input('date','','class="form-control" id="date" placeholder="Fecha"');
+                         ?>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-hourglass-half" aria-hidden="true"></i></span>
+                        <?php 
+                          echo form_label('','status');
+                          echo form_input('status','','class="form-control" id="status" placeholder="Estado"');
+                         ?>
+                      </div>
+                    </div>
+                    
                     <div class="form-group">
                         <?php echo form_submit('daftar', 'Registrarse', 'class="btn btn-success btn-lg btn-block"'); ?>
                     </div>

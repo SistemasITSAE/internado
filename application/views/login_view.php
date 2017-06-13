@@ -4,7 +4,7 @@
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
      <link type="text/css" rel="stylesheet" href="<?php echo base_url('/assets/css/bootstrap.min.css') ?>"  media="screen,projection"/>
-      <link type="text/css" rel="stylesheet" href="<?php echo base_url('/assets/css/style.css') ?>"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="<?php echo base_url('/assets/css/login.css') ?>"  media="screen,projection"/>
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -38,8 +38,8 @@
                         <span class="input-group-addon">
                            <i class="glyphicon glyphicon-user"></i></span>
                             <?php 
-                            echo form_label('','username');
-                            echo form_input('username','','     class="form-control" id="username"     placeholder="Nombre de usuario"') 
+                            echo form_label('','email');
+                            echo form_input('email','','class="form-control" id="email" placeholder="correo" type="email"') 
                             ?>
                       </div>
                     </div>

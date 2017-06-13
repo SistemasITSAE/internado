@@ -3,10 +3,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Login_model extends CI_Model {
 
-	function login($username, $password){
-		$this->db->select('id,fullname,username,password');
-		$this->db->from('users');
-		$this->db->where('username', $username);
+	function login($email, $password){
+		$this->db->select('id,tipo,fullname,email,password,date,status');
+		$this->db->from('login');
+		$this->db->where('email', $email);
 		$this->db->where('password', md5($password));
 		$this->db->limit(1);
 
@@ -19,16 +19,21 @@ class Login_model extends CI_Model {
 	}
 
 	function register(){
+		$tp = $this->input->post('type');
 		$fn = $this->input->post('fullname');
-		$un = $this->input->post('username');
+		$em = $this->input->post('email');
 		$pw = md5($this->input->post('password'));
+		$dt = $this->input->post('date');
+		$st = $this->input->post('status');
 		$data = array(
 			'id' =>'',
 			'fullname' => $fn,
-			'username' => $un,
-			'password' => $pw
+			'email' => $em,
+			'password' => $pw,
+			'date' =>'',
+			'status' =>''
 			);
-		$this->db->insert('users', $data);
+		$this->db->insert('login', $data);
 	}
 }
    
