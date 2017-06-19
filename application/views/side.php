@@ -4,9 +4,9 @@
               <!-- sidebar menu start-->
               <ul class="sidebar-menu">                
                   <li class="active">
-                      <a class="" href="index.html">
+                      <a class="" href="#">
                           <i class="icon_house_alt"></i>
-                          <span>Dashboard</span>
+                          <span>Inicio</span>
                       </a>
                   </li>
 				  <li class="sub-menu">
@@ -16,10 +16,10 @@
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
                       <ul class="sub">
-                          <li><a class="" href="form_component.html">Form Elements</a></li>                          
+                          <li><a class="" href="form_component.html">Form Elements</a></li>
                           <li><a class="" href="form_validation.html">Form Validation</a></li>
                       </ul>
-                  </li>       
+                  </li>
                   <li class="sub-menu">
                       <a href="javascript:;" class="">
                           <i class="icon_desktop"></i>
