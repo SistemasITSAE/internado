@@ -1,79 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="css/bootstrap.css" class="rel">
-  <link rel="stylesheet" href="estilo.css" class="rel">
-  <title>Sistema de Gestion de Internados</title>
-</head>
-<body>
+  <html lang="es">
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+     <link type="text/css" rel="stylesheet" href="<?php echo base_url('/assets/css/bootstrap.min.css') ?>"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="<?php echo base_url('/assets/css/login.css') ?>"  media="screen,projection"/>
 
- <div class="row">
-  
-   <div class="col-md-2">
-    <div class="sidebar-nav">
-      <div class="navbar navbar-default" role="navigation">
-              <img src="photo.png" alt="" width="200" height="150">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="datosgenerales.php">Datos Personales</a></li>
-            <li><a href="informacionfinanciera.php">Imformacion Financiera</a></li>
-            <li><a href="antecedentesreligiosos.php">Antecedentes Religiosos</a></li>
-            <li><a href="soloadventistas.php">Solo Adventista</a></li>
-            <li><a href="datosdelospadres.php">Datos de los padres</a></li>
-            <li><a href="datosdesalud.php">Datos de Salud</a></li>
-
-          </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-10">
-<h1 align="center">DEPARTAMENTO DE BIENESTAR ESTUDIANTIL</h1>
-<h2 align="center">FICHA INFORMATIVA DE RESIDENTES</h2>
-<h3 align="center">ITSAE</h3>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-4 col-md-offset-1 col-sm-8 col-sm-offset-2">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta charset="utf-8">
+    </head>
+    <body>
+      <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-4 col-md-offset-1 col-sm-8 col-sm-offset-2">
             <div class="panel panel-info" >
               <div class="panel-heading">
                <div class="panel-title" align="center">Datos Personales</div>
@@ -163,14 +101,9 @@
 
 </div>
 
-</div>
-
-</div>
-
-
-
-
-
-
-</body>
-</html>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="<?php echo base_url('/assets/js/jquery.min.js') ?>"></script>
+      <script type="text/javascript" src="<?php echo base_url('/assets/js/bootstrap.min.js') ?>"></script>
+    </body>
+  </html>
+        
