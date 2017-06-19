@@ -7,11 +7,11 @@
       <section class="wrapper">
       <div class="row">
         <div class="col-lg-12">
-          <h3 class="page-header"><i class="fa fa-files-o"></i> Form Validation</h3>
+          <h3 class="page-header"><i class="fa fa-files-o"></i> Estudiantes</h3>
           <ol class="breadcrumb">
-            <li ><i class="fa fa-home"></i><a classs="btn btn-primary btn-lg" href="<?php echo site_url('home/home_view'); ?>" role="button">Home</a></li>
-            <li><i class="icon_document_alt"></i>Forms</li>
-            <li><i class="fa fa-files-o"></i>Form Validation</li>
+            <li ><i class="fa fa-home"></i><a classs="btn btn-primary btn-lg" href="<?php echo site_url('home/home_view'); ?>" role="button">Inicio</a></li>
+            <li><i class="icon_document_alt"></i>Reglamentos</li>
+            <li><i class="fa fa-files-o"></i>Datos Personales</li>
           </ol>
         </div>
       </div>
@@ -20,15 +20,39 @@
                   <div class="col-lg-12">
                       <section class="panel">
                           <header class="panel-heading">
-                              Form validations
+                              Datos Personales
                           </header>
                           <div class="panel-body">
                               <div class="form">
                                   <form class="form-validate form-horizontal" id="feedback_form" method="get" action="">
                                       <div class="form-group ">
-                                          <label for="cname" class="control-label col-lg-2">Full Name <span class="required">*</span></label>
+                                          <label for="cname" class="control-label col-lg-2">Nombres<span class="required">*</span></label>
                                           <div class="col-lg-10">
-                                              <input class="form-control" id="cname" name="fullname" minlength="5" type="text" required />
+                                              <input class="form-control" id="cname" name="nombres" minlength="5" type="text" required />
+                                          </div>
+                                      </div>
+                                       <div class="form-group ">
+                                          <label for="cname" class="control-label col-lg-2">Apellidos<span class="required">*</span></label>
+                                          <div class="col-lg-10">
+                                              <input class="form-control" id="cname" name="apellidos" minlength="5" type="text" required />
+                                          </div>
+                                      </div>
+                                       <div class="form-group ">
+                                          <label for="cname" class="control-label col-lg-2">Lugar de Nacimiento<span class="required">*</span></label>
+                                          <div class="col-lg-10">
+                                              <input class="form-control" id="cname" name="Lnacimiento" minlength="5" type="text" required />
+                                          </div>
+                                      </div>
+                                      <div class="form-group ">
+                                          <label for="cname" class="control-label col-lg-2">Fecha de Nacimiento<span class="required">*</span></label>
+                                          <div class="col-lg-10">
+                                              <input class="form-control" id="cname" name="Fnacimiento" minlength="5" type="text" required />
+                                          </div>
+                                      </div>
+                                       <div class="form-group ">
+                                          <label for="cname" class="control-label col-lg-2">Cedula/Pasaporte<span class="required">*</span></label>
+                                          <div class="col-lg-10">
+                                              <input class="form-control" id="cname" name="cedula" minlength="5" type="text" required />
                                           </div>
                                       </div>
                                       <div class="form-group ">
@@ -37,24 +61,25 @@
                                               <input class="form-control " id="cemail" type="email" name="email" required />
                                           </div>
                                       </div>
-                                      <div class="form-group ">
-                                          <label for="curl" class="control-label col-lg-2">Website</label>
+                                       <div class="form-group ">
+                                          <label for="cname" class="control-label col-lg-2">Edad<span class="required">*</span></label>
                                           <div class="col-lg-10">
-                                              <input class="form-control " id="curl" type="url" name="url" />
+                                              <input class="form-control" id="cname" name="edad" minlength="5" type="text" required />
                                           </div>
                                       </div>
-                                      <div class="form-group ">
-                                          <label for="cname" class="control-label col-lg-2">Subject <span class="required">*</span></label>
+                                       <div class="form-group ">
+                                          <label for="cname" class="control-label col-lg-2">Nacionalidad<span class="required">*</span></label>
                                           <div class="col-lg-10">
-                                              <input class="form-control" id="subject" name="subject" minlength="5" type="text" required />
-                                          </div>
-                                      </div>                                      
-                                      <div class="form-group ">
-                                          <label for="ccomment" class="control-label col-lg-2">Feedback</label>
-                                          <div class="col-lg-10">
-                                              <textarea class="form-control " id="ccomment" name="comment" required></textarea>
+                                              <input class="form-control" id="cname" name="nacionalidad" minlength="5" type="text" required />
                                           </div>
                                       </div>
+                                       <div class="form-group ">
+                                          <label for="cname" class="control-label col-lg-2">Celular<span class="required">*</span></label>
+                                          <div class="col-lg-10">
+                                              <input class="form-control" id="cname" name="Celular" minlength="5" type="text" required />
+                                          </div>
+                                      </div>
+                                    
                                       <div class="form-group">
                                           <div class="col-lg-offset-2 col-lg-10">
                                               <button class="btn btn-primary" type="submit">Save</button>
@@ -72,15 +97,21 @@
                   <div class="col-lg-12">
                       <section class="panel">
                           <header class="panel-heading">
-                             Advanced Form validations
+                            Datos de Padres
                           </header>
                           <div class="panel-body">
                               <div class="form">
                                   <form class="form-validate form-horizontal " id="register_form" method="get" action="">
                                       <div class="form-group ">
-                                          <label for="fullname" class="control-label col-lg-2">Full name <span class="required">*</span></label>
+                                          <label for="fullname" class="control-label col-lg-2">Nombres del Padre<span class="required">*</span></label>
                                           <div class="col-lg-10">
-                                              <input class=" form-control" id="fullname" name="fullname" type="text" />
+                                              <input class=" form-control" id="nombrespadre" name="nombrespadre" type="text" />
+                                          </div>
+                                      </div>
+                                        <div class="form-group ">
+                                          <label for="fullname" class="control-label col-lg-2">Estado Civil<span class="required">*</span></label>
+                                          <div class="col-lg-10">
+                                              <input class=" form-control" id="estadocivil" name="estadocivil" type="text" />
                                           </div>
                                       </div>
                                       <div class="form-group ">
