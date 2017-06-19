@@ -20,8 +20,7 @@
  </head>
  <!--sidebar start-->
       <aside>
- 				<div class="navbar-collapse navbar-ex1-collapse collapse" style="height: 1px;">
-          <ul id="sidebar"  class="nav navbar-nav side-nav ">
+          <div id="sidebar"  class="nav-collapse ">
               <!-- sidebar menu start-->
               <ul class="sidebar-menu" style="display: block;">
                   <li class="">
@@ -30,7 +29,7 @@
                           <span>Inicio</span>
                       </a>
                   </li>
-				  <li>
+				  				<li>
                       <a href="#" data-toggle="collapse" data-target="#demo" class="collapsed">
                           <i class="icon_document_alt"></i>
                           <span>Registro</span>
@@ -38,18 +37,6 @@
                       <ul id="demo" class="collapse in">
                           <li><a class="" href="<?php echo site_url('student/student_view'); ?>">Estudiantes</a></li>
                           <li><a class="" href="form_validation.html">Form Validation</a></li>
-                      </ul>
-                  </li>
-                  <li class="sub-menu">
-                      <a href="javascript:;" class="">
-                          <i class="icon_desktop"></i>
-                          <span>Registro</span>
-                          <span class="menu-arrow arrow_carrot-right"></span>
-                      </a>
-                      <ul class="sub">
-                          <li><a class="" href="general.html">Elements</a></li>
-                          <li><a class="" href="buttons.html">Buttons</a></li>
-                          <li><a class="" href="grids.html">Grids</a></li>
                       </ul>
                   </li>
                   <li>
@@ -68,7 +55,7 @@
                   <li class="sub-menu">
                       <a href="javascript:;" class="">
                           <i class="icon_table"></i>
-                          <span>Tables</span>
+                          <span>Garita</span>
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
                       <ul class="sub">
@@ -77,8 +64,6 @@
                   </li>
               </ul>
               <!-- sidebar menu end-->
-          </ul>
-          	
           </div>
       </aside>
       <!--sidebar end-->
