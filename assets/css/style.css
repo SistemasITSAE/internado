@@ -3,7 +3,7 @@
 	background-image: url(http://i.imgur.com/xeek3iC.jpg);
 	position: relative;
 	width: auto;
-    margin-bottom: 60px;
+	margin-bottom: 60px;
 }
 */
 html, body{
@@ -45,74 +45,73 @@ html, body{
 	width: 90px;
 }
 .panel a.panel-footer {
-    text-decoration: none;
+	text-decoration: none;
 }
 .panel .panel-footer {
-    padding: 20px;
-    display: block;
-    font-size: 17px;
-    color: #878797;
-    font-weight: 100;
+	padding: 20px;
+	display: block;
+	font-size: 17px;
+	color: #878797;
+	font-weight: 100;
 }
 .panel-footer {
-    padding: 10px 15px;
-    background-color: #f5f5f5;
-    border-top: 1px solid #ddd;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
+	padding: 10px 15px;
+	background-color: #f5f5f5;
+	border-top: 1px solid #ddd;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
 }
 .logo-sfdc {
-    display: block;
-    margin: auto;
-    width: 100%;
-    max-width: 430px;
-    height: 90px;
-    /*
-    padding: 26.66667px 0;*/
-    padding: 0 0;
-    text-align: center;
-    background: -webkit-linear-gradient(90deg,rgba(255,255,255,0) 0,rgba(255,255,255,0.2) 50%,rgba(255,255,255,0) 100%);
-    background: linear-gradient(90deg,rgba(255,255,255,0) 0,rgba(255,255,255,0.2) 50%,rgba(255,255,255,0) 100%);
-    background-size: 100% 1px;
-    background-repeat: no-repeat;
+	display: block;
+	margin: auto;
+	width: 100%;
+	max-width: 430px;
+	height: 90px;
+	/*
+	padding: 26.66667px 0;*/
+	padding: 0 0;
+	text-align: center;
+	background: -webkit-linear-gradient(90deg,rgba(255,255,255,0) 0,rgba(255,255,255,0.2) 50%,rgba(255,255,255,0) 100%);
+	background: linear-gradient(90deg,rgba(255,255,255,0) 0,rgba(255,255,255,0.2) 50%,rgba(255,255,255,0) 100%);
+	background-size: 100% 1px;
+	background-repeat: no-repeat;
 }
 /*
 .logo-sfdc a {
-    display: block;
-    color: #9e93ab;
-    color: rgba(255,255,255,0.4);
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: .05em;
-    font-size: 10px;
+	display: block;
+	color: #9e93ab;
+	color: rgba(255,255,255,0.4);
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	font-size: 10px;
 }*/
 .logo-sfdc a span {
-    display: inline-block;
-    height: 49px;
-    width: 70px;
-    text-align: center;
-    margin: 0 3px -22px;
-    overflow: hidden;
-    background: url(../img/);
-    background-repeat: repeat;
-    background-repeat: no-repeat;
+	display: inline-block;
+	height: 49px;
+	width: 70px;
+	text-align: center;
+	margin: 0 3px -22px;
+	overflow: hidden;
+	background: url(../img/);
+	background-repeat: repeat;
+	background-repeat: no-repeat;
 }
 .legal {
-    list-style: none;
-    margin-top: 40px;
-    padding: 0;
-    text-align: center;
+	list-style: none;
+	margin-top: 40px;
+	padding: 0;
+	text-align: center;
 }
 /*
 .legal li, .legal a {
-    font-size: 12px;
-    font-weight: bold;
-    text-transform: none;
-    letter-spacing: 0;
-    color: rgba(255,255,255,0.6);
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: none;
+	letter-spacing: 0;
+	color: rgba(255,255,255,0.6);
 }*/
 .legal li {
-    display: inline-block;
-    margin: 5px;
+	display: inline-block;
+	margin: 5px;
 }
-

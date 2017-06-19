@@ -1,11 +1,10 @@
 <!--Import Google Icon Font-->
 <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<!--Import materialize.css-->
-<link type="text/css" rel="stylesheet" href="<?php echo base_url('/assets/css/bootstrap.min.css') ?>"  media="screen,projection"/>
+<!--Import bootstrap.css-->
+<link type="text/css" rel="stylesheet" href="<?php echo base_url('/assets/css/bootstrap.min.css') ?>" media="screen,projection"/>
 <link type="text/css" rel="stylesheet" href="<?php echo base_url('/assets/css/style.css') ?>"  media="screen,projection"/>
 <link rel="stylesheet" type="text/css" href="<?php echo base_url('/assets/css/style2.css'); ?>">
 <!--external css-->
-<!-- font icon -->
 <link href="<?php echo base_url('/assets/css/elegant-icons-style.css')?>" rel="stylesheet" />
 <link href="<?php echo base_url('/assets/css/font-awesome.min.css')?>" rel="stylesheet" />
 <!-- full calendar css-->
@@ -19,7 +18,6 @@
 <!-- Custom styles -->
 <link rel="stylesheet" href="<?php echo base_url('/assets/css/fullcalendar.css')?>">
 <link href="<?php echo base_url('/assets/css/widgets.css')?>" rel="stylesheet">
-<link href="<?php echo base_url('/assets/css/style.css')?>" rel="stylesheet">
 <link href="<?php echo base_url('/assets/css/style-responsive.css')?>" rel="stylesheet" />
 <link href="<?php echo base_url('/assets/css/xcharts.min.css')?>" rel=" stylesheet">
 <link href="<?php echo base_url('/assets/css/jquery-ui-1.10.4.min.css')?>" rel="stylesheet">
