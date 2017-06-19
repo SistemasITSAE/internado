@@ -9,7 +9,7 @@ class Home extends CI_Controller{
 			$session_data = $this->session->userdata('logged_in');
 			$data['id'] = ['id'];
 			$data['fullname'] = ['fullname'];
-			$data['username'] = ['username'];
+			$data['email'] = ['email'];
 			$this->load->view('home_view', $data);
 		}else {
 			redirect('login','refresh');
@@ -22,5 +22,4 @@ class Home extends CI_Controller{
 		$this->session->sess_destroy();
 		redirect(site_url('login'),'refresh');
 	}
-
 }
