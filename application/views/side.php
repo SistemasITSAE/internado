@@ -34,9 +34,19 @@
                           <i class="icon_document_alt"></i>
                           <span>Registro</span>
                       </a>
-                      <ul id="demo" class="collapse in">
+                      <ul id="demo" class="collapse">
                           <li><a class="" href="<?php echo site_url('student/student_view'); ?>">Estudiantes</a></li>
-                          <li><a class="" href="form_validation.html">Form Validation</a></li>
+                          <li><a class="" href="form_validation.html">Preceptores</a></li>
+                      </ul>
+                  </li>
+                  				  				<li>
+                      <a href="#" data-toggle="collapse" data-target="#demo1" class="collapsed">
+                          <i class="icon_document_alt"></i>
+                          <span>Horario de Cultos</span>
+                      </a>
+                      <ul id="demo1" class="collapse">
+                          <li><a class="" href="<?php echo site_url('student/student_view'); ?>">Mañana</a></li>
+                          <li><a class="" href="form_validation.html">Tarde</a></li>
                       </ul>
                   </li>
                   <li>
@@ -52,14 +62,14 @@
                       </a>
                   </li>
 
-                  <li class="sub-menu">
-                      <a href="javascript:;" class="">
-                          <i class="icon_table"></i>
+				  				<li>
+                      <a href="#" data-toggle="collapse" data-target="#demo" class="collapsed">
+                          <i class="icon_document_alt"></i>
                           <span>Garita</span>
-                          <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
-                      <ul class="sub">
-                          <li><a class="" href="basic_table.html">Basic Table</a></li>
+                      <ul id="demo" class="collapse">
+                          <li><a class="" href="<?php echo site_url('student/student_view'); ?>">Permisos</a></li>
+                          <li><a class="" href="form_validation.html">Entradas</a></li>
                       </ul>
                   </li>
               </ul>
