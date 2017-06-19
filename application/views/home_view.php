@@ -1,6 +1,7 @@
   <html>
     <head>
     <?php include 'links.php' ?>
+    <?php include 'scripts.php' ?>
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <title>Administrator Area</title>
@@ -10,16 +11,10 @@
       <div id="wrapper">
         <?php include 'header.php';?> 
         <div id="page-wrapper">
-           <?php include 'side.php' ?>
-      <h1>welcome</h1>
+          <?php include 'side.php' ?>
         </div>
-       
-      <?php include 'footer.php';?>
+        <?php include 'footer.php';?>
       </div>
-      <?php include 'scripts.php' ?>
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="<?php echo base_url('/assets/js/jquery.min.js') ?> "></script>
-      <script type="text/javascript" src="<?php echo base_url('/assets/js/bootstrap.min.js') ?> "></script>
     </body>
   </html>
         
