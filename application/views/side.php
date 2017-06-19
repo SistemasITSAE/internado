@@ -2,7 +2,7 @@
       <aside>
           <div id="sidebar"  class="nav-collapse ">
               <!-- sidebar menu start-->
-              <ul class="sidebar-menu">                
+              <ul class="sidebar-menu">
                   <li class="active">
                       <a class="" href="#">
                           <i class="icon_house_alt"></i>
@@ -72,7 +72,6 @@
                       </ul>
                   </li>
                   <li class="#"><a classs="btn btn-primary btn-lg" href="<?php echo site_url('student/student_view'); ?>" role="button">Student</a></li>
-                  
               </ul>
               <!-- sidebar menu end-->
           </div>
