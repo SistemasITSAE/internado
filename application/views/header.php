@@ -38,7 +38,7 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ITSAE <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">Students</a></li>
-            <li><a href="#">Regsitern</a></li>
+            <li ><a href="<?php echo site_url('home/student_view'); ?>" ></a>Student</li>
             <li><a href="#">Descripción</a></li>
             <li role="separator" class="divider"></li>
             <!--
@@ -47,6 +47,8 @@
             <li><a href="#"></a></li>--
           </ul>
         </li>
+     
+        <li class="#"><a classs="btn btn-primary btn-lg" href="<?php echo site_url('student/student_view'); ?>" role="button">Student</a></li>
         <li class="#"><a classs="btn btn-primary btn-lg" href="<?php echo site_url('home/logout'); ?>" role="button">Salir</a></li>
       </ul>
       <!--
