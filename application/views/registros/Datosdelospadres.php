@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="css/bootstrap.css" class="rel">
-  <link rel="stylesheet" href="estilo.css" class="rel">
+  <link rel="stylesheet" href="application/views/css/bootstrap.css" class="rel">
+  <link rel="stylesheet" href="assets/css/bootstrap.css" class="rel">
+  <link rel="stylesheet" href="assets/css/estilo.css" class="rel">
   <title>Sistema de Gestion de Internados</title>
 </head>
 <body>
