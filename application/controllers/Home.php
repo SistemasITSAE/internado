@@ -22,4 +22,10 @@ class Home extends CI_Controller{
 		$this->session->sess_destroy();
 		redirect(site_url('login'),'refresh');
 	}
+	public function home_view()
+	{
+		
+		redirect(site_url('home'),'refresh');
+	}
+
 }

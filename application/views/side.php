@@ -71,6 +71,7 @@
                           <li><a class="" href="404.html">404 Error</a></li>
                       </ul>
                   </li>
+                  <li class="#"><a classs="btn btn-primary btn-lg" href="<?php echo site_url('student/student_view'); ?>" role="button">Student</a></li>
                   
               </ul>
               <!-- sidebar menu end-->

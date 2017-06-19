@@ -9,9 +9,9 @@ class student extends CI_Controller{
 		}
 
 	public function student_view(){
-		$this->load->view('header');
+
 		$this->load->view('student_view');
-		$this->load->view('footer');
+		
 
 
 		
