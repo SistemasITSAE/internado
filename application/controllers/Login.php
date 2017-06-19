@@ -38,4 +38,8 @@ class Login extends CI_Controller{
 				$this->load->view('register_view');
 		}
 	}
+	/*
+	public function exit(){
+
+	}*/
 }

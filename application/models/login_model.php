@@ -35,5 +35,23 @@ class Login_model extends CI_Model {
 			);
 		$this->db->insert('login', $data);
 	}
+		/*
+		function exit(){
+		$nm = $this->input->post('name');
+		$mt = $this->input->post('motive');
+		$pl = $this->input->post('place');
+		$et = $this->input->post('exit');
+		$rt = $this->input->post('return');
+		$data = array(
+			'id_salida' =>'',
+			'name' => $nm,
+			'motive' => $mt,
+			'place' => $pl,
+			'exit' =>'et',
+			'return' =>'rt'
+			);
+		$this->db->insert('exit', $data);
+	}*/
 }
+ 
    
