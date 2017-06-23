@@ -26,9 +26,7 @@ html, body{
 .inside {
 	color: orange;
 }*/
-.navbar-default{
-	background-color: white;
-}
+
 .input-group{
 	margin-bottom: 25px;
 }
@@ -114,4 +112,7 @@ html, body{
 .legal li {
 	display: inline-block;
 	margin: 5px;
+}
+.navbar-default {
+	background-color: #e6e6fa;
 }

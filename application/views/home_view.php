@@ -4,14 +4,17 @@
     <?php include 'scripts.php' ?>
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <title>Administrator Area</title>
+      <title>Sistema Internado ITSAE</title>
     </head>
     <body>
-     <section id="container">
+     <section id="container" class="">
      		<?php include 'header.php';?>
-        	<div id="page-wrapper">
           <?php include 'side.php' ?>
-        	</div>
+        	<section id="main-content">
+        		<section class="wrapper">
+        			
+        		</section>
+        	</section>
         	<?php include 'footer.php';?>
      </section>
     </body>
