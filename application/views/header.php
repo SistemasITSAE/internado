@@ -37,7 +37,7 @@
                 <a href="#"><i class="icon_clock_alt"></i> Ver Usuarios</a>
              	</li>
              	<li>
-                <a href="<?php echo site_url('home/logout'); ?>"><i class="icon_key_alt"></i> Salir</a>
+                <a href="<?php echo site_url('home/logout'); ?>"><i class="fa fa-sign-out" aria-hidden="true"></i> Salir</a>
              	</li>
              	<li>
                 <a href="documentation.html"><i class=""></i> Observaciones</a>
