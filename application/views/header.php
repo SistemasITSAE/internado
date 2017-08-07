@@ -25,7 +25,7 @@
           <span class="profile-ava">
             <img alt="" src="<?php echo base_url('/assets/img/avatar-mini2.jpg')?>">
           </span>
-          <span class="username">Usuario1</span>
+          <span class="username">Welcome user</span>
              <b class="caret"></b>
         </a>
          <ul class="dropdown-menu extended logout">

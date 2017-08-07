@@ -6,12 +6,16 @@ html, body{
 	margin-bottom: -190px;
 }
 .gradient-primary{
-	background-image: linear-gradient(to bottom,#654a86,#534292);
-    background-color: #534292;
+	/*background-image: linear-gradient(to bottom,#654a86,#534292);
+
+    background-color: #534292;*/
     /*
-    background-image: linear-gradient(to bottom,#0CF242,#0CF242);
-    background-color: #08F647;
+    background-image: linear-gradient(to bottom,##0FACF3,#0FACF3);
+    background-color: #0FACF3;
 	*/
+	background-color: rgba(0,0,0,0.5);
+	/*
+	background-image: url(http://i.imgur.com/8JtuYS6.jpg);*/
 }
 .container {
     position: relative;
@@ -156,4 +160,61 @@ a:hover,
 a:focus {
   color: rgba(255,255,255,0.8);
   text-decoration: underline;
+}
+.btn-success{
+	background-color: #0FACF3;
+	border-color:#0FACF3;
+}
+
+.btn-success:hover {
+	background: gray;
+	border-color:gray;
+
+}
+.btn-success:focus,
+.btn-success.focus {
+  color: #fff;
+  background-color: gray;
+  border-color: gray;
+}
+.btn-success:active,
+.btn-success.active,
+.open > .dropdown-toggle.btn-success {
+  color: #fff;
+  background-color: gray;
+  border-color: gray;
+}
+.btn-success:active:hover,
+.btn-success.active:hover,
+.open > .dropdown-toggle.btn-success:hover,
+.btn-success:active:focus,
+.btn-success.active:focus,
+.open > .dropdown-toggle.btn-success:focus,
+.btn-success:active.focus,
+.btn-success.active.focus,
+.open > .dropdown-toggle.btn-success.focus {
+  color: #fff;
+  background-color: gray;
+  border-color: gray;
+}
+.btn-success:active,
+.btn-success.active,
+.open > .dropdown-toggle.btn-success {
+  background-image: none;
+}
+.btn-success.disabled:hover,
+.btn-success[disabled]:hover,
+fieldset[disabled] .btn-success:hover,
+.btn-success.disabled:focus,
+.btn-success[disabled]:focus,
+fieldset[disabled] .btn-success:focus,
+.btn-success.disabled.focus,
+.btn-success[disabled].focus,
+fieldset[disabled] .btn-success.focus {
+  background-color: gray;
+  border-color:gray;
+}
+.btn-success .badge {
+  color: gray;
+  background-color: gray;
 }
