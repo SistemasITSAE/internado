@@ -6,10 +6,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Student_model extends CI_Model {
 
   
-    public function __construct(){  
-    }
 
-function register(){
+
+function registrar(){
 	$nombres = $this->input->post('nombres');
 	$apellidos = $this->input->post('apellidos');
 	$lugar = $this->input->post('lugar');
@@ -20,20 +19,20 @@ function register(){
 	$nacionalidad = $this->input->post('nacionalidad');	
 	$celular = $this->input->post('celular');
 	$data = array(
-			'id' =>'',
+			'id_estudiante' =>'',
 			'nombres' => $nombres,
 			'apellidos'=>$apellidos ,
-			'lugar'	=>	 $lugar
-			'fech_nacimiento'=>	 $fech_nacimiento
-			'cedula'=>	 $cedula
-			'email'	=>	 $email
-			'edad'	=>	 $edad
-			'nacionalidad'=>$nacionalidad
-			'celular'=>	 $celular
+			'lugar'	=>	 $lugar,
+			'fech_nacimiento'=>	 $fech_nacimiento,
+			'cedula'=>	 $cedula,
+			'email'	=>	 $email,
+			'edad'	=>	 $edad,
+			'nacionalidad'=>$nacionalidad,
+			'celular'=>	 $celular,
 			
 
 			);
-		$this->db->insert('estudiantes', $data);
+		$this->db->insert('estudiante', $data);
 	}
 
 
@@ -86,12 +85,9 @@ nombres='$nombres',, apellidos='$apellidos', lugar='$lugar',, fech_nacimiento='$
     */
     }
     
-    
-}
 
 
 
 
 
-}
 ?>

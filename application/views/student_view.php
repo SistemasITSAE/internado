@@ -29,10 +29,10 @@
                  
                        <?php 
                       
-                        echo form_open('student/register','class="myclass"');
+                        echo form_open('Student/student_view','class="myclass"');
                        ?>
                                       <div class="form-group ">
-                                          <label for="cname" class="control-label col-lg-2">Nombres<span class="required">*</span></label>
+                                       <label for="cname" class="control-label col-lg-2">Nombres<span class="required">*</span></label>
                                           <div class="col-lg-10">
                                               <?php 
                       echo form_label('','nombres');
@@ -40,6 +40,7 @@
                       ?>
                                           </div>
                                       </div>
+                                    
                                        <div class="form-group ">
                                           <label for="cname" class="control-label col-lg-2">Apellidos<span class="required">*</span></label>
                                           <div class="col-lg-10">
