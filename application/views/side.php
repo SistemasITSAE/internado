@@ -14,7 +14,7 @@
           <i class="icon_document_alt"></i><span>Registro</span>
         </a>
         <ul id="demo" class="collapse">
-          <li><a class="hvr-shutter-out-vertical" href="<?php echo site_url('student/student_view'); ?>"><i class="fa fa-users"></i>Estudiantes</a></li>
+          <li><a class="hvr-shutter-out-vertical" href="<?php echo site_url('Student/student_view'); ?>"><i class="fa fa-users"></i>Estudiantes</a></li>
           <li><a class="hvr-shutter-out-vertical" href="form_validation.html">Preceptores</a></li>
         </ul>
       </li>
@@ -24,7 +24,7 @@
           <span>Horario de Cultos</span>
       	</a>
                       <ul id="demo1" class="collapse">
-                          <li><a class="hvr-shutter-out-vertical" href="<?php echo site_url('student/student_view'); ?>">Mañana</a></li>
+                          <li><a class="hvr-shutter-out-vertical" href="<?php echo site_url('Student/student_view'); ?>">Mañana</a></li>
                           <li><a class="hvr-shutter-out-vertical" href="form_validation.html">Tarde</a></li>
                       </ul>
                   </li>
@@ -47,7 +47,7 @@
                           <span>Garita</span>
                       </a>
                       <ul id="demo2" class="collapse">
-                          <li><a class="hvr-shutter-out-vertical" href="<?php echo site_url('student/student_view'); ?>">Permisos</a></li>
+                          <li><a class="hvr-shutter-out-vertical" href="<?php echo site_url('Student/student_view'); ?>">Permisos</a></li>
                           <li><a class="hvr-shutter-out-vertical" href="form_validation.html">Entradas</a></li>
                       </ul>
                   </li>

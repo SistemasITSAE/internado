@@ -24,68 +24,108 @@
                           </header>
                           <div class="panel-body">
                               <div class="form">
-                                  <form class="form-validate form-horizontal" id="feedback_form" method="get" action="">
+                                  <form class="form-validate form-horizontal" id="feedback_form" method="POST" action="">
+                                    
+                 
+                       <?php 
+                      
+                        echo form_open('Student/student_view','class="myclass"');
+                       ?>
                                       <div class="form-group ">
-                                          <label for="cname" class="control-label col-lg-2">Nombres<span class="required">*</span></label>
+                                       <label for="cname" class="control-label col-lg-2">Nombres<span class="required">*</span></label>
                                           <div class="col-lg-10">
-                                              <input class="form-control" id="cname" name="nombres" minlength="5" type="text" required />
+                                              <?php 
+                      echo form_label('','nombres');
+                      echo form_input('nombres','','class="form-control col-lg-2" id="nombres" placeholder="Completo"') 
+                      ?>
                                           </div>
                                       </div>
+                                    
                                        <div class="form-group ">
                                           <label for="cname" class="control-label col-lg-2">Apellidos<span class="required">*</span></label>
                                           <div class="col-lg-10">
-                                              <input class="form-control" id="cname" name="apellidos" minlength="5" type="text" required />
+                                               <?php 
+                      echo form_label('','apellidos');
+                      echo form_input('apellidos','','class="form-control" id="apellidos" placeholder="Completo"') 
+                      ?>
                                           </div>
                                       </div>
                                        <div class="form-group ">
                                           <label for="cname" class="control-label col-lg-2">Lugar de Nacimiento<span class="required">*</span></label>
                                           <div class="col-lg-10">
-                                              <input class="form-control" id="cname" name="Lnacimiento" minlength="5" type="text" required />
+                                              <?php 
+                      echo form_label('','lugar');
+                      echo form_input('lugar','','class="form-control" id="lugar" placeholder="Completo"') 
+                      ?>
                                           </div>
                                       </div>
                                       <div class="form-group ">
                                           <label for="cname" class="control-label col-lg-2">Fecha de Nacimiento<span class="required">*</span></label>
                                           <div class="col-lg-10">
-                                              <input class="form-control" id="cname" name="Fnacimiento" minlength="5" type="text" required />
+                                               <?php 
+                      echo form_label('','fech_nacimiento');
+                      echo form_input('fech_nacimiento','','class="form-control" id="fech_nacimiento" placeholder="Completo"') 
+                      ?>
                                           </div>
                                       </div>
                                        <div class="form-group ">
                                           <label for="cname" class="control-label col-lg-2">Cedula/Pasaporte<span class="required">*</span></label>
                                           <div class="col-lg-10">
-                                              <input class="form-control" id="cname" name="cedula" minlength="5" type="text" required />
+                                              <?php 
+                      echo form_label('','cedula');
+                      echo form_input('cedula','','class="form-control" id="cedula" placeholder="Completo"') 
+                      ?>
                                           </div>
                                       </div>
                                       <div class="form-group ">
                                           <label for="cemail" class="control-label col-lg-2">E-Mail <span class="required">*</span></label>
                                           <div class="col-lg-10">
-                                              <input class="form-control " id="cemail" type="email" name="email" required />
+                                              <?php 
+                      echo form_label('','email');
+                      echo form_input('email','','class="form-control" id="email" placeholder="Completo"') 
+                      ?>
                                           </div>
                                       </div>
                                        <div class="form-group ">
                                           <label for="cname" class="control-label col-lg-2">Edad<span class="required">*</span></label>
                                           <div class="col-lg-10">
-                                              <input class="form-control" id="cname" name="edad" minlength="5" type="text" required />
+                                              <?php 
+                      echo form_label('','edad');
+                      echo form_input('edad','','class="form-control" id="edad" placeholder="Completo"') 
+                      ?>
                                           </div>
                                       </div>
                                        <div class="form-group ">
                                           <label for="cname" class="control-label col-lg-2">Nacionalidad<span class="required">*</span></label>
                                           <div class="col-lg-10">
-                                              <input class="form-control" id="cname" name="nacionalidad" minlength="5" type="text" required />
+                                              <?php 
+                      echo form_label('','nacionalidad');
+                      echo form_input('nacionalidad','','class="form-control" id="nacionalidad" placeholder="Completo"') 
+                      ?>
                                           </div>
                                       </div>
-                                       <div class="form-group ">
-                                          <label for="cname" class="control-label col-lg-2">Celular<span class="required">*</span></label>
-                                          <div class="col-lg-10">
-                                              <input class="form-control" id="cname" name="Celular" minlength="5" type="text" required />
-                                          </div>
+                                       <div class="form-group "> <label for="cname" class="control-label col-lg-2">Celular
+                                          <span class="required">*</span></label>
+                                           <div class="col-lg-10">
+                                          <?php 
+                      echo form_label('','celular');
+                      echo form_input('celular','','class="form-control" id="celular" placeholder="Completo"') 
+                      ?></div>
                                       </div>
                                       <div class="form-group">
-                                          <div class="col-lg-offset-2 col-lg-10">
-                                              <button class="btn btn-primary" type="submit">Save</button>
+                                           <div class="form-group">
+
+                        <?php echo form_submit('guardar', 'guardar', 'class="btn btn-success btn-lg btn-block" width="20px"'); ?>
+                    </div>
                                               <button class="btn btn-default" type="button">Cancel</button>
                                           </div>
                                       </div>
                                   </form>
+           <!--  codigo hay que borrar  submit isset presion by jefferson                   <?php
+                                    IF (isset($_POST ['submit'])){
+  require('student.php');
+}
+                                  ?>-->   
                               </div>
 
                           </div>
